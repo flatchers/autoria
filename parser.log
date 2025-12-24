@@ -1,0 +1,338 @@
+[ WARNING]:  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F47CFEBE30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/63dff0facf5d5d1c40fc0f203073e9c4/url
+[ WARNING]:  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F47C1CE960>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/63dff0facf5d5d1c40fc0f203073e9c4/url
+[ WARNING]:  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F47CFF81A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/63dff0facf5d5d1c40fc0f203073e9c4/url
+[ WARNING]:  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2EE54A060>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ae78bb9d2705ba73b7ceab0dbe8d58e6/url
+[    INFO]:  Start parsing autoria
+[   DEBUG]:  
+def chain(*args, **kwargs):
+    return 1
+
+[   DEBUG]:  
+def xstarmap(task, it):
+    return 1
+
+[   DEBUG]:  
+def accumulate(self, *args, **kwargs):
+    return 1
+
+[   DEBUG]:  
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+[   DEBUG]:  
+def chunks(task, it, n):
+    return 1
+
+[   DEBUG]:  
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+[   DEBUG]:  
+def run_parser():
+    return 1
+
+[   DEBUG]:  
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+[   DEBUG]:  
+def xmap(task, it):
+    return 1
+
+[   DEBUG]:  
+def backend_cleanup():
+    return 1
+
+[   DEBUG]:  Selenium Manager binary found at: C:\Users\Heorhii\Python--versions\python-version-3.12\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+[   DEBUG]:  Executing process: C:\Users\Heorhii\Python--versions\python-version-3.12\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+[   DEBUG]:  Sending stats to Plausible: Props { browser: "chrome", browser_version: "", os: "windows", arch: "x86_64", lang: "python", selenium_version: "4.39" }
+[   DEBUG]:  chromedriver not found in PATH
+[   DEBUG]:  chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+[   DEBUG]:  Detected browser: chrome 143.0.7499.147
+[   DEBUG]:  Discovering versions from https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json
+[   DEBUG]:  Required driver: chromedriver 143.0.7499.169
+[   DEBUG]:  chromedriver 143.0.7499.169 already in the cache
+[   DEBUG]:  Driver path: C:\Users\Heorhii\.cache\selenium\chromedriver\win64\143.0.7499.169\chromedriver.exe
+[   DEBUG]:  Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+[   DEBUG]:  Started executable: `C:\Users\Heorhii\.cache\selenium\chromedriver\win64\143.0.7499.169\chromedriver.exe` in a child process with pid: 19372 using 0 to output -3
+[   DEBUG]:  POST http://localhost:58426/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+[   DEBUG]:  Starting new HTTP connection (1): localhost:58426
+[   DEBUG]:  http://localhost:58426 "POST /session HTTP/1.1" 200 0
+[   DEBUG]:  Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"143.0.7499.147","chrome":{"chromedriverVersion":"143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399})","userDataDir":"C:\\Users\\Heorhii\\AppData\\Local\\Temp\\scoped_dir19372_63304090"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:58432"},"goog:processID":4784,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"7cc83304c4320f5277358528faafbb69"}} | headers=HTTPHeaderDict({'Content-Length': '906', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[   DEBUG]:  Finished Request
+[    INFO]:  Start parsing autoria
+[   DEBUG]:  Starting new HTTPS connection (1): auto.ria.com:443
+[   DEBUG]:  https://auto.ria.com:443 "GET /uk/search/&page=0 HTTP/1.1" 200 None
+[   DEBUG]:  Starting new HTTPS connection (1): auto.ria.com:443
+[   DEBUG]:  https://auto.ria.com:443 "GET /uk/auto_gehl_5240_39232788.html HTTP/1.1" 200 None
+[   DEBUG]:  Selenium Manager binary found at: C:\Users\Heorhii\Python--versions\python-version-3.12\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+[   DEBUG]:  Executing process: C:\Users\Heorhii\Python--versions\python-version-3.12\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+[   DEBUG]:  chromedriver not found in PATH
+[   DEBUG]:  chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+[   DEBUG]:  Detected browser: chrome 143.0.7499.147
+[   DEBUG]:  Required driver: chromedriver 143.0.7499.169
+[   DEBUG]:  chromedriver 143.0.7499.169 already in the cache
+[   DEBUG]:  Driver path: C:\Users\Heorhii\.cache\selenium\chromedriver\win64\143.0.7499.169\chromedriver.exe
+[   DEBUG]:  Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+[   DEBUG]:  Started executable: `C:\Users\Heorhii\.cache\selenium\chromedriver\win64\143.0.7499.169\chromedriver.exe` in a child process with pid: 18516 using 0 to output -3
+[   DEBUG]:  POST http://localhost:52213/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': ['--headless=new', '--disable-gpu', '--no-sandbox', '--disable-dev-shm-usage']}}}}
+[   DEBUG]:  Starting new HTTP connection (1): localhost:52213
+[   DEBUG]:  http://localhost:52213 "POST /session HTTP/1.1" 200 0
+[   DEBUG]:  Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"143.0.7499.147","chrome":{"chromedriverVersion":"143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399})","userDataDir":"C:\\Users\\Heorhii\\AppData\\Local\\Temp\\scoped_dir18516_390287091"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:52216"},"goog:processID":20688,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"6b17722b846a5b39e5e328f2858c1510"}} | headers=HTTPHeaderDict({'Content-Length': '908', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[   DEBUG]:  Finished Request
+[   DEBUG]:  POST http://localhost:52213/session/6b17722b846a5b39e5e328f2858c1510/url {'url': 'https://auto.ria.com/uk/auto_gehl_5240_39232788.html'}
+[   DEBUG]:  http://localhost:52213 "POST /session/6b17722b846a5b39e5e328f2858c1510/url HTTP/1.1" 200 0
+[   DEBUG]:  Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[   DEBUG]:  Finished Request
+[   DEBUG]:  POST http://localhost:52213/session/6b17722b846a5b39e5e328f2858c1510/element {'using': 'css selector', 'value': 'button.js-cookie-agree'}
+[   DEBUG]:  http://localhost:52213 "POST /session/6b17722b846a5b39e5e328f2858c1510/element HTTP/1.1" 404 0
+[   DEBUG]:  Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.js-cookie-agree\"}\n  (Session info: chrome=143.0.7499.147)","stacktrace":"Symbols not available. Dumping unresolved backtrace:\n\t0x7ff7116888e5\n\t0x7ff711688940\n\t0x7ff71146165d\n\t0x7ff7114b9a33\n\t0x7ff7114b9d3c\n\t0x7ff71150df67\n\t0x7ff71150ac97\n\t0x7ff7114aac29\n\t0x7ff7114aba93\n\t0x7ff7119a0640\n\t0x7ff71199af80\n\t0x7ff7119b96e6\n\t0x7ff7116a5de4\n\t0x7ff7116aed8c\n\t0x7ff711692004\n\t0x7ff7116921b5\n\t0x7ff711677ee2\n\t0x7ffdfeaae8d7\n\t0x7ffdfff2c53c\n"}} | headers=HTTPHeaderDict({'Content-Length': '615', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[   DEBUG]:  Finished Request
+[   DEBUG]:  POST http://localhost:52213/session/6b17722b846a5b39e5e328f2858c1510/element {'using': 'css selector', 'value': '#sellerInfo .button-main.mt-12 button'}
+[   DEBUG]:  http://localhost:52213 "POST /session/6b17722b846a5b39e5e328f2858c1510/element HTTP/1.1" 200 0
+[   DEBUG]:  Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.CD1943F5E79A61EB1F9F5A9613292D16.d.FC25C3F1E294D4572875163FCC4D6C05.e.25"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[   DEBUG]:  Finished Request
+[   DEBUG]:  POST http://localhost:52213/session/6b17722b846a5b39e5e328f2858c1510/execute/sync {'script': '/* isDisplayed */return (function(){return (function(){var h=this||self;\nfunction aa(a){var b=typeof...', 'args': [{'element-6066-11e4-a52e-4f735466cecf': 'f.CD1943F5E79A61EB1F9F5A9613292D16.d.FC25C3F1E294D4572875163FCC4D6C05.e.25'}]}
+[   DEBUG]:  http://localhost:52213 "POST /session/6b17722b846a5b39e5e328f2858c1510/execute/sync HTTP/1.1" 200 0
+[   DEBUG]:  Remote response: status=200 | data={"value":true} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[   DEBUG]:  Finished Request
+[   DEBUG]:  GET http://localhost:52213/session/6b17722b846a5b39e5e328f2858c1510/element/f.CD1943F5E79A61EB1F9F5A9613292D16.d.FC25C3F1E294D4572875163FCC4D6C05.e.25/enabled {}
+[   DEBUG]:  http://localhost:52213 "GET /session/6b17722b846a5b39e5e328f2858c1510/element/f.CD1943F5E79A61EB1F9F5A9613292D16.d.FC25C3F1E294D4572875163FCC4D6C05.e.25/enabled HTTP/1.1" 200 0
+[   DEBUG]:  Remote response: status=200 | data={"value":true} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[   DEBUG]:  Finished Request
+[   DEBUG]:  POST http://localhost:52213/session/6b17722b846a5b39e5e328f2858c1510/element/f.CD1943F5E79A61EB1F9F5A9613292D16.d.FC25C3F1E294D4572875163FCC4D6C05.e.25/click {}
+[   DEBUG]:  http://localhost:52213 "POST /session/6b17722b846a5b39e5e328f2858c1510/element/f.CD1943F5E79A61EB1F9F5A9613292D16.d.FC25C3F1E294D4572875163FCC4D6C05.e.25/click HTTP/1.1" 400 0
+[   DEBUG]:  Remote response: status=400 | data={"value":{"error":"element click intercepted","message":"element click intercepted: Element \u003Cbutton class=\"size-large conversion\" type=\"button\" data-type=\"common-button\" data-width-type=\"full\" data-action=\"showBottomPopUp\">...\u003C/button> is not clickable at point (611, 393). Other element would receive the click: \u003Cbutton class=\"size-large conversion\" type=\"button\" data-type=\"common-button\" data-width-type=\"custom\" data-action=\"\">...\u003C/button>\n  (Session info: chrome=143.0.7499.147)","stacktrace":"Symbols not available. Dumping unresolved backtrace:\n\t0x7ff7116888e5\n\t0x7ff711688940\n\t0x7ff71146165d\n\t0x7ff7114c19e8\n\t0x7ff7114bf40f\n\t0x7ff7114bc417\n\t0x7ff7114bb338\n\t0x7ff7114ace7f\n\t0x7ff7114e1fda\n\t0x7ff7114ac746\n\t0x7ff71150ac97\n\t0x7ff7114aac29\n\t0x7ff7114aba93\n\t0x7ff7119a0640\n\t0x7ff71199af80\n\t0x7ff7119b96e6\n\t0x7ff7116a5de4\n\t0x7ff7116aed8c\n\t0x7ff711692004\n\t0x7ff7116921b5\n\t0x7ff711677ee2\n\t0x7ffdfeaae8d7\n\t0x7ffdfff2c53c\n"}} | headers=HTTPHeaderDict({'Content-Length': '1011', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[   DEBUG]:  Finished Request
+[   DEBUG]:  Starting new HTTPS connection (1): auto.ria.com:443
+[   DEBUG]:  https://auto.ria.com:443 "GET /uk/auto_chevrolet_camaro_39294744.html HTTP/1.1" 200 None
+[   DEBUG]:  Selenium Manager binary found at: C:\Users\Heorhii\Python--versions\python-version-3.12\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+[   DEBUG]:  Executing process: C:\Users\Heorhii\Python--versions\python-version-3.12\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+[   DEBUG]:  chromedriver not found in PATH
+[   DEBUG]:  chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+[   DEBUG]:  Detected browser: chrome 143.0.7499.147
+[   DEBUG]:  Required driver: chromedriver 143.0.7499.169
+[   DEBUG]:  chromedriver 143.0.7499.169 already in the cache
+[   DEBUG]:  Driver path: C:\Users\Heorhii\.cache\selenium\chromedriver\win64\143.0.7499.169\chromedriver.exe
+[   DEBUG]:  Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+[   DEBUG]:  Started executable: `C:\Users\Heorhii\.cache\selenium\chromedriver\win64\143.0.7499.169\chromedriver.exe` in a child process with pid: 23124 using 0 to output -3
+[   DEBUG]:  POST http://localhost:62652/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': ['--headless=new', '--disable-gpu', '--no-sandbox', '--disable-dev-shm-usage']}}}}
+[   DEBUG]:  Starting new HTTP connection (1): localhost:62652
+[   DEBUG]:  http://localhost:62652 "POST /session HTTP/1.1" 200 0
+[   DEBUG]:  Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"143.0.7499.147","chrome":{"chromedriverVersion":"143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399})","userDataDir":"C:\\Users\\Heorhii\\AppData\\Local\\Temp\\scoped_dir23124_1470572790"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:62655"},"goog:processID":7892,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"d18444f5446b03ac7e3e6559d7b22752"}} | headers=HTTPHeaderDict({'Content-Length': '908', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[   DEBUG]:  Finished Request
+[   DEBUG]:  POST http://localhost:62652/session/d18444f5446b03ac7e3e6559d7b22752/url {'url': 'https://auto.ria.com/uk/auto_chevrolet_camaro_39294744.html'}
+[   DEBUG]:  DELETE http://localhost:58426/session/7cc83304c4320f5277358528faafbb69 {}
+[   DEBUG]:  Resetting dropped connection: localhost
+[   DEBUG]:  
+def chain(*args, **kwargs):
+    return 1
+
+[   DEBUG]:  
+def xstarmap(task, it):
+    return 1
+
+[   DEBUG]:  
+def accumulate(self, *args, **kwargs):
+    return 1
+
+[   DEBUG]:  
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+[   DEBUG]:  
+def chunks(task, it, n):
+    return 1
+
+[   DEBUG]:  
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+[   DEBUG]:  
+def run_parser():
+    return 1
+
+[   DEBUG]:  
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+[   DEBUG]:  
+def xmap(task, it):
+    return 1
+
+[   DEBUG]:  
+def backend_cleanup():
+    return 1
+
+[   DEBUG]:  Selenium Manager binary found at: C:\Users\Heorhii\Python--versions\python-version-3.12\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+[   DEBUG]:  Executing process: C:\Users\Heorhii\Python--versions\python-version-3.12\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+[   DEBUG]:  chromedriver not found in PATH
+[   DEBUG]:  chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+[   DEBUG]:  Detected browser: chrome 143.0.7499.147
+[   DEBUG]:  Required driver: chromedriver 143.0.7499.169
+[   DEBUG]:  chromedriver 143.0.7499.169 already in the cache
+[   DEBUG]:  Driver path: C:\Users\Heorhii\.cache\selenium\chromedriver\win64\143.0.7499.169\chromedriver.exe
+[   DEBUG]:  Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+[   DEBUG]:  Started executable: `C:\Users\Heorhii\.cache\selenium\chromedriver\win64\143.0.7499.169\chromedriver.exe` in a child process with pid: 9076 using 0 to output -3
+[   DEBUG]:  POST http://localhost:57773/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+[   DEBUG]:  Starting new HTTP connection (1): localhost:57773
+[   DEBUG]:  http://localhost:57773 "POST /session HTTP/1.1" 200 0
+[   DEBUG]:  Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"143.0.7499.147","chrome":{"chromedriverVersion":"143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399})","userDataDir":"C:\\Users\\Heorhii\\AppData\\Local\\Temp\\scoped_dir9076_1330447036"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:57783"},"goog:processID":8712,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"4e5b32cd9975f3e8905e401d6a33cfaa"}} | headers=HTTPHeaderDict({'Content-Length': '907', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[   DEBUG]:  Finished Request
+[   DEBUG]:  Starting new HTTPS connection (1): auto.ria.com:443
+[   DEBUG]:  https://auto.ria.com:443 "GET /uk/search/&page=0 HTTP/1.1" 200 None
+[   DEBUG]:  Starting new HTTPS connection (1): auto.ria.com:443
+[   DEBUG]:  https://auto.ria.com:443 "GET /uk/auto_gehl_5240_39232788.html HTTP/1.1" 200 None
+[   DEBUG]:  Selenium Manager binary found at: C:\Users\Heorhii\Python--versions\python-version-3.12\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+[   DEBUG]:  Executing process: C:\Users\Heorhii\Python--versions\python-version-3.12\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+[   DEBUG]:  chromedriver not found in PATH
+[   DEBUG]:  chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+[   DEBUG]:  Detected browser: chrome 143.0.7499.147
+[   DEBUG]:  Required driver: chromedriver 143.0.7499.169
+[   DEBUG]:  chromedriver 143.0.7499.169 already in the cache
+[   DEBUG]:  Driver path: C:\Users\Heorhii\.cache\selenium\chromedriver\win64\143.0.7499.169\chromedriver.exe
+[   DEBUG]:  Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+[   DEBUG]:  Started executable: `C:\Users\Heorhii\.cache\selenium\chromedriver\win64\143.0.7499.169\chromedriver.exe` in a child process with pid: 13104 using 0 to output -3
+[   DEBUG]:  POST http://localhost:63174/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': ['--headless=new', '--disable-gpu', '--no-sandbox', '--disable-dev-shm-usage']}}}}
+[   DEBUG]:  Starting new HTTP connection (1): localhost:63174
+[   DEBUG]:  http://localhost:63174 "POST /session HTTP/1.1" 200 0
+[   DEBUG]:  Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"143.0.7499.147","chrome":{"chromedriverVersion":"143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399})","userDataDir":"C:\\Users\\Heorhii\\AppData\\Local\\Temp\\scoped_dir13104_769935384"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:50550"},"goog:processID":23228,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"67c45c09e7b8965f05cf6507fac4fb2f"}} | headers=HTTPHeaderDict({'Content-Length': '908', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[   DEBUG]:  Finished Request
+[   DEBUG]:  POST http://localhost:63174/session/67c45c09e7b8965f05cf6507fac4fb2f/url {'url': 'https://auto.ria.com/uk/auto_gehl_5240_39232788.html'}
+[   DEBUG]:  DELETE http://localhost:57773/session/4e5b32cd9975f3e8905e401d6a33cfaa {}
+[   DEBUG]:  Resetting dropped connection: localhost
+[   DEBUG]:  
+def chain(*args, **kwargs):
+    return 1
+
+[   DEBUG]:  
+def xstarmap(task, it):
+    return 1
+
+[   DEBUG]:  
+def accumulate(self, *args, **kwargs):
+    return 1
+
+[   DEBUG]:  
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+[   DEBUG]:  
+def chunks(task, it, n):
+    return 1
+
+[   DEBUG]:  
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+[   DEBUG]:  
+def run_parser():
+    return 1
+
+[   DEBUG]:  
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+[   DEBUG]:  
+def xmap(task, it):
+    return 1
+
+[   DEBUG]:  
+def backend_cleanup():
+    return 1
+
+[   DEBUG]:  Selenium Manager binary found at: C:\Users\Heorhii\Python--versions\python-version-3.12\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+[   DEBUG]:  Executing process: C:\Users\Heorhii\Python--versions\python-version-3.12\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+[   DEBUG]:  chromedriver not found in PATH
+[   DEBUG]:  chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+[   DEBUG]:  Detected browser: chrome 143.0.7499.147
+[   DEBUG]:  Required driver: chromedriver 143.0.7499.169
+[   DEBUG]:  chromedriver 143.0.7499.169 already in the cache
+[   DEBUG]:  Driver path: C:\Users\Heorhii\.cache\selenium\chromedriver\win64\143.0.7499.169\chromedriver.exe
+[   DEBUG]:  Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+[   DEBUG]:  Started executable: `C:\Users\Heorhii\.cache\selenium\chromedriver\win64\143.0.7499.169\chromedriver.exe` in a child process with pid: 3636 using 0 to output -3
+[   DEBUG]:  POST http://localhost:57598/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+[   DEBUG]:  Starting new HTTP connection (1): localhost:57598
+[   DEBUG]:  http://localhost:57598 "POST /session HTTP/1.1" 200 0
+[   DEBUG]:  Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"143.0.7499.147","chrome":{"chromedriverVersion":"143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399})","userDataDir":"C:\\Users\\Heorhii\\AppData\\Local\\Temp\\scoped_dir3636_1498294555"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:57601"},"goog:processID":16420,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"01d8b3884e814e8ce48e0a9181616fce"}} | headers=HTTPHeaderDict({'Content-Length': '908', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[   DEBUG]:  Finished Request
+[    INFO]:  Start parsing autoria
+[   DEBUG]:  Starting new HTTPS connection (1): auto.ria.com:443
+[   DEBUG]:  https://auto.ria.com:443 "GET /uk/search/&page=0 HTTP/1.1" 200 None
+[   DEBUG]:  Starting new HTTPS connection (1): auto.ria.com:443
+[   DEBUG]:  https://auto.ria.com:443 "GET /uk/auto_gehl_5240_39232788.html HTTP/1.1" 200 None
+[   DEBUG]:  POST http://localhost:57598/session/01d8b3884e814e8ce48e0a9181616fce/url {'url': 'https://auto.ria.com/uk/auto_gehl_5240_39232788.html'}
+[   DEBUG]:  DELETE http://localhost:57598/session/01d8b3884e814e8ce48e0a9181616fce {}
+[   DEBUG]:  Starting new HTTP connection (2): localhost:57598
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing autoria
+[ WARNING]:  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002528C64D370>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/940a11b1bc4109cc838348bbe3458937
+[ WARNING]:  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002528C64D4F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/940a11b1bc4109cc838348bbe3458937
+[ WARNING]:  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002528C64D670>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/940a11b1bc4109cc838348bbe3458937
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing page: # 1
+[ WARNING]:  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/676c271b8a0c3f2dbae99ea4f6f94acd
+[ WARNING]:  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023D2A39E0C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/676c271b8a0c3f2dbae99ea4f6f94acd
+[ WARNING]:  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023D2A39E240>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/676c271b8a0c3f2dbae99ea4f6f94acd
+[    INFO]:  Start parsing autoria
+[ WARNING]:  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001384E2F1BB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3e7dcd4692aaaa5b731d44f9f44addcb
+[ WARNING]:  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001384E2F1A30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3e7dcd4692aaaa5b731d44f9f44addcb
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing page: # 1
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing autoria
+[ WARNING]:  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019BCDA195B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7b52d6e12257b360e82a37ed424005bf/url
+[ WARNING]:  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019BCDA197C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7b52d6e12257b360e82a37ed424005bf/url
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing autoria
+[ WARNING]:  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/9b9a33a45e5151e86d01d511bd13a686/screenshot
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing autoria
+[ WARNING]:  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/d93249969a3e9b2e87030a628367cef4/screenshot
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing autoria
+[ WARNING]:  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/365a44510ecfd08b46c9fc3b9da28119
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing autoria
+[ WARNING]:  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/ad7a888c33e7d5228f544f216f6f0004
+[    INFO]:  Start parsing autoria
+[ WARNING]:  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/3a5c8659a817d7475a03303e5a7b0bd6
+[ WARNING]:  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A5BAC2B590>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5c8659a817d7475a03303e5a7b0bd6
+[ WARNING]:  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A5BAC2B4A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a5c8659a817d7475a03303e5a7b0bd6
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing autoria
+[ WARNING]:  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BCAD748080>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/0bf9dfc886c6f5cc33c8f4392d5886be
+[ WARNING]:  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BCAD748200>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/0bf9dfc886c6f5cc33c8f4392d5886be
+[ WARNING]:  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BCAD748380>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/0bf9dfc886c6f5cc33c8f4392d5886be
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing autoria
+[    INFO]:  Start parsing page: # 1
+[    INFO]:  Start parsing autoria
+[ WARNING]:  No hostname was supplied. Reverting to default 'localhost'
+[    INFO]:  Start parsing autoria
+[ WARNING]:  No hostname was supplied. Reverting to default 'localhost'
+[ WARNING]:  No hostname was supplied. Reverting to default 'localhost'
+[ WARNING]:  No hostname was supplied. Reverting to default 'localhost'
+[ WARNING]:  No hostname was supplied. Reverting to default 'localhost'
