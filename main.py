@@ -1,7 +1,5 @@
 import csv
 import json
-import logging
-import sys
 import time
 from dataclasses import dataclass, fields, astuple, asdict
 import datetime
@@ -18,6 +16,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 from database import insert_dataframe, DUMPS_DIR
+from logging_config import get_logging_info, get_logging_debug
 
 BASE_URL = "https://auto.ria.com/uk/"
 HOME_URL = urljoin(BASE_URL, "search/?indexName=auto")
@@ -52,16 +51,6 @@ class Product:
 CAR_FIELDS = [field.name for field in fields(Product)]
 
 
-logging.basicConfig(
-    level=logging.INFO,
-    format="[%(levelname)8s]:  %(message)s",
-    handlers=[
-        logging.FileHandler("parser.log"),
-        logging.StreamHandler(sys.stdout),
-    ],
-)
-
-
 def parse_hidden_phone_number_person(car_soup: Tag) -> str:
     absolute_url = urljoin(BASE_URL, car_soup["href"])
     driver = get_driver()
@@ -94,8 +83,8 @@ def parse_hidden_phone_number_person(car_soup: Tag) -> str:
         result += "38" + "".join(
             phone.text.replace("(", "").replace(")", "").split(" ")
         )
-    except Exception as ex:
-        print(ex)
+    except Exception:
+        print(get_logging_debug())
         result = None
         pass
     finally:
@@ -117,43 +106,6 @@ def parse_single_car(product: Tag) -> Optional[Product]:
             "#badgesVinGrid .common-text.ws-pre-wrap.badge"
         )
         phone_number = parse_hidden_phone_number_person(product)
-
-        print(
-            dict(
-                url=urljoin(BASE_URL, product["href"]),
-                title=product.select_one(
-                    ".common-text.size-16-20.titleS.fw-bold.mb-4"
-                ).text.strip(),
-                price_usd="".join(
-                    [
-                        i if i.isdigit() else ""
-                        for i in product.select_one(".common-text.titleM.c-green").text
-                    ]
-                ),
-                odometer=int(
-                    "".join(
-                        product.select_one(".common-text.ellipsis-1.body")
-                        .text.strip()
-                        .replace("тис. км", "000")
-                        .split()
-                    )
-                ),
-                username=nickname.text.strip() if nickname else "sold",
-                phone_number=phone_number,
-                image_url=str(product.select_one(".picture img")["src"]),
-                images_count=(
-                    int(image_count_person.text.split()[-1])
-                    if image_count_person
-                    else None
-                ),
-                car_number=car_num.text.strip() if car_num else None,
-                car_vin=car_vin.text if car_vin else None,
-                datetime_found="".join(
-                    str(datetime.datetime.now().strftime("%Y-%m-%d"))
-                ),
-            )
-        )
-
         return Product(
             url=urljoin(BASE_URL, product["href"]),
             title=product.select_one(
@@ -189,14 +141,14 @@ def parse_single_car(product: Tag) -> Optional[Product]:
 
 
 def parse_car_pages():
-    logging.info("Start parsing autoria")
+    get_logging_info()
     text = requests.get(urljoin(HOME_URL, "&page=0")).content
     soup = BeautifulSoup(text, "html.parser")
     all_cars = get_page_cars(soup)
     # num_pages = int("".join(soup.select(".item .link.page-link")[-1].text.split()))
     # IF ALL PAGES ADD TO RANGE AS A SECOND ARGUMENT INSTEAD "1 + 1"
     for num in range(1, 1 + 1):
-        logging.info(f"Start parsing page: # {num}")
+        get_logging_info()
         new_text = requests.get(
             f"https://auto.ria.com/uk/search/?indexName=auto&page={num}"
         ).content

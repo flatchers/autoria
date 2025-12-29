@@ -15,7 +15,7 @@ def run_parser():
 @app.on_after_configure.connect
 def periodic_task(sender: Celery, **kwargs):
     sender.add_periodic_task(
-        crontab(minute=22, hour=8),
+        crontab(minute=0, hour=12),
         run_parser.s(),
         name="daily parser"
     )

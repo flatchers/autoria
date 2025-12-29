@@ -1,15 +1,15 @@
 [
     {
-        "url": "https://auto.ria.com/uk/auto_chevrolet_camaro_39294744.html",
-        "title": "Chevrolet Camaro 2011",
-        "price_usd": 12600,
-        "odometer": 99000,
-        "username": "Slavik",
-        "phone_number": 380679509607,
-        "image_url": "https://cdn2.riastatic.com/photosnew/auto/photo/_camaro__626214057fx.jpg",
-        "images_count": 63,
-        "car_number": null,
-        "car_vin": "2G1FC1ED3B9202190",
+        "url": "https://auto.ria.com/uk/auto_bmw_x3_39304592.html",
+        "title": "BMW X3 2006",
+        "price_usd": 14900,
+        "odometer": 164000,
+        "username": "Тарас",
+        "phone_number": 380935332030,
+        "image_url": "https://cdn4.riastatic.com/photosnew/auto/photo/_x3__626486619fx.jpg",
+        "images_count": 10,
+        "car_number": "BK 6372 CI",
+        "car_vin": "WBAPD71010WF50315",
         "datetime_found": "2025-12-24"
     },
     {
@@ -26,16 +26,16 @@
         "datetime_found": "2025-12-24"
     },
     {
-        "url": "https://auto.ria.com/uk/auto_peugeot_3008_38902064.html",
-        "title": "Peugeot 3008 2010",
-        "price_usd": 7100,
-        "odometer": 280000,
-        "username": "Авторитет Черкаси",
-        "phone_number": 380671818888,
-        "image_url": "https://cdn0.riastatic.com/photosnew/auto/photo/_3008__615513040fx.jpg",
-        "images_count": 23,
-        "car_number": "AI 5010 MC",
-        "car_vin": "VF30U9HZHAS134910",
+        "url": "https://auto.ria.com/uk/auto_audi_q7_39322768.html",
+        "title": "Audi Q7 2013",
+        "price_usd": 18999,
+        "odometer": 263000,
+        "username": "TOPCARS.ZAHID",
+        "phone_number": 380777788886,
+        "image_url": "https://cdn2.riastatic.com/photosnew/auto/photo/_q7__626996582fx.jpg",
+        "images_count": 103,
+        "car_number": null,
+        "car_vin": "WA1VMAFEXED011844",
         "datetime_found": "2025-12-24"
     },
     {
@@ -65,19 +65,6 @@
         "datetime_found": "2025-12-24"
     },
     {
-        "url": "https://auto.ria.com/uk/auto_audi_q5_39269367.html",
-        "title": "Audi Q5 2016",
-        "price_usd": 14950,
-        "odometer": 162000,
-        "username": "Авторитет Черкаси",
-        "phone_number": 380671818888,
-        "image_url": "https://cdn1.riastatic.com/photosnew/auto/photo/_q5__625506776fx.jpg",
-        "images_count": 21,
-        "car_number": "AI 0723 MB",
-        "car_vin": "WA1C2AFP1GA019835",
-        "datetime_found": "2025-12-24"
-    },
-    {
         "url": "https://auto.ria.com/uk/auto_volkswagen_id-3_39230625.html",
         "title": "Volkswagen ID.3 2020",
         "price_usd": 14900,
@@ -88,6 +75,19 @@
         "images_count": 212,
         "car_number": null,
         "car_vin": "WVWZZZE1ZLP010206",
+        "datetime_found": "2025-12-24"
+    },
+    {
+        "url": "https://auto.ria.com/uk/auto_kia_niro_39326990.html",
+        "title": "Kia Niro 2020",
+        "price_usd": 18100,
+        "odometer": 170000,
+        "username": "Володимир",
+        "phone_number": 380665021421,
+        "image_url": "https://cdn3.riastatic.com/photosnew/auto/photo/_niro__627116188fx.jpg",
+        "images_count": 36,
+        "car_number": "BK 1570 YB",
+        "car_vin": "KNACC81GFL5054707",
         "datetime_found": "2025-12-24"
     },
     {
@@ -117,45 +117,6 @@
         "datetime_found": "2025-12-24"
     },
     {
-        "url": "https://auto.ria.com/uk/auto_citroen_e-c4_38911939.html",
-        "title": "Citroen e-C4 2025",
-        "price_usd": 28499,
-        "odometer": 4000,
-        "username": "Васильович",
-        "phone_number": 380931951392,
-        "image_url": "https://cdn3.riastatic.com/photosnew/auto/photo/_e-c4__622677063fx.jpg",
-        "images_count": 41,
-        "car_number": null,
-        "car_vin": "VR7BCZKW4RE085167",
-        "datetime_found": "2025-12-24"
-    },
-    {
-        "url": "https://auto.ria.com/uk/auto_mercedes-benz_eqs_38810182.html",
-        "title": "Mercedes-Benz EQS 2023",
-        "price_usd": 59999,
-        "odometer": 43000,
-        "username": "Васильович",
-        "phone_number": 380931951392,
-        "image_url": "https://cdn3.riastatic.com/photosnew/auto/photo/_eqs__615733898fx.jpg",
-        "images_count": 80,
-        "car_number": null,
-        "car_vin": "W1K2971231A014234",
-        "datetime_found": "2025-12-24"
-    },
-    {
-        "url": "https://auto.ria.com/uk/auto_hyundai_sonata_39323984.html",
-        "title": "Hyundai Sonata 2018",
-        "price_usd": 12200,
-        "odometer": 105000,
-        "username": "Александр",
-        "phone_number": 380632603103,
-        "image_url": "https://cdn3.riastatic.com/photosnew/auto/photo/_sonata__627031808fx.jpg",
-        "images_count": 32,
-        "car_number": "BH 1422 PP",
-        "car_vin": "5NPE34AF6JH689652",
-        "datetime_found": "2025-12-24"
-    },
-    {
         "url": "https://auto.ria.com/uk/auto_mercedes-benz_e-class_39224503.html",
         "title": "Mercedes-Benz E-Class 2008",
         "price_usd": 14899,
@@ -182,45 +143,6 @@
         "datetime_found": "2025-12-24"
     },
     {
-        "url": "https://auto.ria.com/uk/auto_hyundai_tucson_39230744.html",
-        "title": "Hyundai Tucson 2011",
-        "price_usd": 10000,
-        "odometer": 146000,
-        "username": "Ігор Іванович",
-        "phone_number": 380668091150,
-        "image_url": "https://cdn0.riastatic.com/photosnew/auto/photo/_tucson__624420770fx.jpg",
-        "images_count": 13,
-        "car_number": "BM 1011 AT",
-        "car_vin": null,
-        "datetime_found": "2025-12-24"
-    },
-    {
-        "url": "https://auto.ria.com/uk/auto_volkswagen_tiguan_39113766.html",
-        "title": "Volkswagen Tiguan 2017",
-        "price_usd": 14900,
-        "odometer": 122000,
-        "username": "Ігор",
-        "phone_number": 380634289994,
-        "image_url": "https://cdn3.riastatic.com/photosnew/auto/photo/_tiguan__621191198fx.jpg",
-        "images_count": 82,
-        "car_number": null,
-        "car_vin": "WVGSV7AX1HK012930",
-        "datetime_found": "2025-12-24"
-    },
-    {
-        "url": "https://auto.ria.com/uk/auto_volkswagen_tiguan_39088726.html",
-        "title": "Volkswagen Tiguan 2014",
-        "price_usd": 13499,
-        "odometer": 181000,
-        "username": "Ігор",
-        "phone_number": 380634289994,
-        "image_url": "https://cdn4.riastatic.com/photosnew/auto/photo/_tiguan__620488704fx.jpg",
-        "images_count": 86,
-        "car_number": null,
-        "car_vin": "WVGBV3AX8EW109071",
-        "datetime_found": "2025-12-24"
-    },
-    {
         "url": "https://auto.ria.com/uk/auto_bmw_5-series_39124588.html",
         "title": "BMW 5 Series 2015",
         "price_usd": 14800,
@@ -231,6 +153,32 @@
         "images_count": 31,
         "car_number": "KE 9947 AX",
         "car_vin": "WBA5E51010G101135",
+        "datetime_found": "2025-12-24"
+    },
+    {
+        "url": "https://auto.ria.com/uk/auto_renault_logan_39134941.html",
+        "title": "Renault Logan 2019",
+        "price_usd": 9800,
+        "odometer": 73000,
+        "username": "Віктор",
+        "phone_number": 380959491601,
+        "image_url": "https://cdn0.riastatic.com/photosnew/auto/photo/_logan__621764750fx.jpg",
+        "images_count": 27,
+        "car_number": null,
+        "car_vin": "VF17SRKL462561265",
+        "datetime_found": "2025-12-24"
+    },
+    {
+        "url": "https://auto.ria.com/uk/auto_bmw_5-series_38870240.html",
+        "title": "BMW 5 Series 2013",
+        "price_usd": 12000,
+        "odometer": 274000,
+        "username": "Василь",
+        "phone_number": 380503176677,
+        "image_url": "https://cdn3.riastatic.com/photosnew/auto/photo/_5-series__614779943fx.jpg",
+        "images_count": 40,
+        "car_number": null,
+        "car_vin": "WBAMX11000DY18335",
         "datetime_found": "2025-12-24"
     },
     {
@@ -253,23 +201,10 @@
         "odometer": 200000,
         "username": "Вадим",
         "phone_number": 380688660443,
-        "image_url": "https://cdn2.riastatic.com/photosnew/auto/photo/_5-series__625420822fx.jpg",
-        "images_count": 18,
+        "image_url": "https://cdn0.riastatic.com/photosnew/auto/photo/_5-series__627089380fx.jpg",
+        "images_count": 20,
         "car_number": "AC 1000 OB",
         "car_vin": "WBAJE5C5XKWA98660",
-        "datetime_found": "2025-12-24"
-    },
-    {
-        "url": "https://auto.ria.com/uk/auto_volkswagen_passat_39076112.html",
-        "title": "Volkswagen Passat 2007",
-        "price_usd": 4840,
-        "odometer": 365000,
-        "username": "AUTOPARK.UA",
-        "phone_number": 380504043323,
-        "image_url": "https://cdn0.riastatic.com/photosnew/auto/photo/_passat__620158060fx.jpg",
-        "images_count": 37,
-        "car_number": null,
-        "car_vin": "WVWZZZ3CZ7Z001144",
         "datetime_found": "2025-12-24"
     },
     {
@@ -283,58 +218,6 @@
         "images_count": 42,
         "car_number": null,
         "car_vin": "WP0AB2A77JL133053",
-        "datetime_found": "2025-12-24"
-    },
-    {
-        "url": "https://auto.ria.com/uk/auto_audi_a4_39020839.html",
-        "title": "Audi A4 2018",
-        "price_usd": 19900,
-        "odometer": 87000,
-        "username": "Freshauto",
-        "phone_number": 380987081919,
-        "image_url": "https://cdn0.riastatic.com/photosnew/auto/photo/_a4__618630955fx.jpg",
-        "images_count": 38,
-        "car_number": null,
-        "car_vin": "WAULMAF47JA233268",
-        "datetime_found": "2025-12-24"
-    },
-    {
-        "url": "https://auto.ria.com/uk/auto_skoda_octavia_39016898.html",
-        "title": "Skoda Octavia 2017",
-        "price_usd": 14999,
-        "odometer": 93000,
-        "username": "Євгеній",
-        "phone_number": 380999004631,
-        "image_url": "https://cdn4.riastatic.com/photosnew/auto/photo/_octavia__623870564fx.jpg",
-        "images_count": 36,
-        "car_number": "AE 9608 XC",
-        "car_vin": "Y6UAC2NEXJB006454",
-        "datetime_found": "2025-12-24"
-    },
-    {
-        "url": "https://auto.ria.com/uk/auto_bmw_5-series_39115533.html",
-        "title": "BMW 5 Series 2015",
-        "price_usd": 16300,
-        "odometer": 303000,
-        "username": "Евгений",
-        "phone_number": 380635657060,
-        "image_url": "https://cdn4.riastatic.com/photosnew/auto/photo/_5-series__621242344fx.jpg",
-        "images_count": 20,
-        "car_number": "AM 0191 EI",
-        "car_vin": "WBA5L51020G221953",
-        "datetime_found": "2025-12-24"
-    },
-    {
-        "url": "https://auto.ria.com/uk/auto_bmw_x3_39103024.html",
-        "title": "BMW X3 2011",
-        "price_usd": 10740,
-        "odometer": 174000,
-        "username": "AUTOPARK.UA",
-        "phone_number": 380504043323,
-        "image_url": "https://cdn1.riastatic.com/photosnew/auto/photo/_x3__620884741fx.jpg",
-        "images_count": 29,
-        "car_number": null,
-        "car_vin": "5UXWX5C53CL723143",
         "datetime_found": "2025-12-24"
     },
     {
@@ -364,16 +247,29 @@
         "datetime_found": "2025-12-24"
     },
     {
-        "url": "https://auto.ria.com/uk/auto_skoda_kodiaq_39129260.html",
-        "title": "Skoda Kodiaq 2021",
-        "price_usd": 33999,
-        "odometer": 175000,
-        "username": "Юра",
-        "phone_number": 380509569388,
-        "image_url": "https://cdn2.riastatic.com/photosnew/auto/photo/_kodiaq__621608797fx.jpg",
-        "images_count": 116,
+        "url": "https://auto.ria.com/uk/auto_mercedes-benz_e-class_39044765.html",
+        "title": "Mercedes-Benz E-Class 2013",
+        "price_usd": 18440,
+        "odometer": 303000,
+        "username": "AUTOPARK.UA",
+        "phone_number": 380504043323,
+        "image_url": "https://cdn2.riastatic.com/photosnew/auto/photo/_e-class__619296622fx.jpg",
+        "images_count": 37,
         "car_number": null,
-        "car_vin": "TMBLJ7NS8M8060919",
+        "car_vin": "WDDHF9HB8EA912264",
+        "datetime_found": "2025-12-24"
+    },
+    {
+        "url": "https://auto.ria.com/uk/auto_audi_a7-sportback_39326618.html",
+        "title": "Audi A7 Sportback 2011",
+        "price_usd": 15500,
+        "odometer": 300000,
+        "username": "Ім`я не вказане",
+        "phone_number": 380957857777,
+        "image_url": "https://cdn2.riastatic.com/photosnew/auto/photo/_a7-sportback__627105982fx.jpg",
+        "images_count": 10,
+        "car_number": "CE 3632 EH",
+        "car_vin": "WAUZZZ4G5BN035063",
         "datetime_found": "2025-12-24"
     },
     {
@@ -429,16 +325,16 @@
         "datetime_found": "2025-12-24"
     },
     {
-        "url": "https://auto.ria.com/uk/auto_toyota_c-hr_39207120.html",
-        "title": "Toyota C-HR 2018",
-        "price_usd": 15750,
-        "odometer": 77000,
-        "username": "Роман Степанович",
-        "phone_number": 380965139116,
-        "image_url": "https://cdn4.riastatic.com/photosnew/auto/photo/_c-hr__623748279fx.jpg",
-        "images_count": 70,
-        "car_number": null,
-        "car_vin": "JTNKHMBX7J1009515",
+        "url": "https://auto.ria.com/uk/auto_volkswagen_passat_39220843.html",
+        "title": "Volkswagen Passat 2006",
+        "price_usd": 6100,
+        "odometer": 342000,
+        "username": "Катя",
+        "phone_number": 380992917160,
+        "image_url": "https://cdn1.riastatic.com/photosnew/auto/photo/_passat__625748436fx.jpg",
+        "images_count": 13,
+        "car_number": "AO 8010 HH",
+        "car_vin": "WVWZZZ3CZ7E093389",
         "datetime_found": "2025-12-24"
     },
     {
@@ -481,6 +377,19 @@
         "datetime_found": "2025-12-24"
     },
     {
+        "url": "https://auto.ria.com/uk/auto_volvo_v90-cross-country_39087296.html",
+        "title": "Volvo V90 Cross Country 2017",
+        "price_usd": 20500,
+        "odometer": 399000,
+        "username": "Вячеслав",
+        "phone_number": 380508628708,
+        "image_url": "https://cdn3.riastatic.com/photosnew/auto/photo/_v90-cross-country__620454338fx.jpg",
+        "images_count": 25,
+        "car_number": "KE 7736 AK",
+        "car_vin": "YV1PZ68BCH1005725",
+        "datetime_found": "2025-12-24"
+    },
+    {
         "url": "https://auto.ria.com/uk/auto_mercedes-benz_sprinter_38765019.html",
         "title": "Mercedes-Benz Sprinter 2018",
         "price_usd": 44500,
@@ -504,6 +413,84 @@
         "images_count": 42,
         "car_number": "AO 7864 IA",
         "car_vin": "WVWZZZ3CZCE136677",
+        "datetime_found": "2025-12-24"
+    },
+    {
+        "url": "https://auto.ria.com/uk/auto_bmw_x5_39300987.html",
+        "title": "BMW X5 2011",
+        "price_usd": 15999,
+        "odometer": 236000,
+        "username": "Олег Ковальчук",
+        "phone_number": 380961968377,
+        "image_url": "https://cdn4.riastatic.com/photosnew/auto/photo/_x5__626385699fx.jpg",
+        "images_count": 32,
+        "car_number": "AC 9695 HT",
+        "car_vin": "5UXZW0C57CL663824",
+        "datetime_found": "2025-12-24"
+    },
+    {
+        "url": "https://auto.ria.com/uk/auto_bmw_x5-m_38134622.html",
+        "title": "BMW X5 M 2022",
+        "price_usd": 103500,
+        "odometer": 41000,
+        "username": "Максим",
+        "phone_number": 380731003000,
+        "image_url": "https://cdn1.riastatic.com/photosnew/auto/photo/_x5-m__602795121fx.jpg",
+        "images_count": 46,
+        "car_number": "KA 0031 XM",
+        "car_vin": "WBSJU010409L28131",
+        "datetime_found": "2025-12-24"
+    },
+    {
+        "url": "https://auto.ria.com/uk/auto_mercedes-benz_sprinter_39025465.html",
+        "title": "Mercedes-Benz Sprinter 2020",
+        "price_usd": 70400,
+        "odometer": 94000,
+        "username": "Freshauto",
+        "phone_number": 380987081919,
+        "image_url": "https://cdn4.riastatic.com/photosnew/auto/photo/_sprinter__618755379fx.jpg",
+        "images_count": 39,
+        "car_number": null,
+        "car_vin": "W1V9076571P313667",
+        "datetime_found": "2025-12-24"
+    },
+    {
+        "url": "https://auto.ria.com/uk/auto_suzuki_vitara_39230320.html",
+        "title": "Suzuki Vitara 2020",
+        "price_usd": 19200,
+        "odometer": 73000,
+        "username": "Юрій",
+        "phone_number": 380966717149,
+        "image_url": "https://cdn1.riastatic.com/photosnew/auto/photo/_vitara__624406151fx.jpg",
+        "images_count": 87,
+        "car_number": "AC 9420 CM",
+        "car_vin": "TSMLYEA1S00843110",
+        "datetime_found": "2025-12-24"
+    },
+    {
+        "url": "https://auto.ria.com/uk/auto_volkswagen_tiguan_39067154.html",
+        "title": "Volkswagen Tiguan 2018",
+        "price_usd": 16800,
+        "odometer": 192000,
+        "username": "Павло",
+        "phone_number": 380680020478,
+        "image_url": "https://cdn1.riastatic.com/photosnew/auto/photo/_tiguan__619905201fx.jpg",
+        "images_count": 70,
+        "car_number": null,
+        "car_vin": "3VV3B7AX7JM020497",
+        "datetime_found": "2025-12-24"
+    },
+    {
+        "url": "https://auto.ria.com/uk/auto_volkswagen_tiguan_39093803.html",
+        "title": "Volkswagen Tiguan 2022",
+        "price_usd": 21900,
+        "odometer": 137000,
+        "username": "Павло",
+        "phone_number": 380680020478,
+        "image_url": "https://cdn2.riastatic.com/photosnew/auto/photo/_tiguan__620627352fx.jpg",
+        "images_count": 57,
+        "car_number": null,
+        "car_vin": "3VV2B7AXXNM157046",
         "datetime_found": "2025-12-24"
     }
 ]

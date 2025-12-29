@@ -8,8 +8,9 @@
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
-.env
-
+.idea
+.venv
+__pycache__
 # AWS User-specific
 .idea/**/aws.xml
 
